@@ -14,6 +14,7 @@ func main() {
 	fmt.Println(global)
 	fmt.Printf("The value of the \"local\" variable is %d and its type is %T\n", local, local)
 	fmt.Printf("The value of the \"global\" variable is \"%s\" and its type is %T\n", global, global)
-	s1 := fmt.Sprint("The value of the \"localFloat\" variable is ", localFloat, " and its type is ", reflect.TypeOf(localFloat))
+	s1 := fmt.Sprint("The value of the \"localFloat\" variable is ", localFloat, " and its type is ",
+		reflect.TypeOf(localFloat))
 	fmt.Println(s1)
 }
