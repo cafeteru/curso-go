@@ -13,6 +13,8 @@ func main() {
 	for index, value := range initialArray {
 		fmt.Println(index, value)
 	}
+
+	// Create a partial copy
 	fmt.Println(initialArray[:2])  // 0 - 1
 	fmt.Println(initialArray[3:])  // 3 - 4 - 5
 	fmt.Println(initialArray[2:4]) // 2 - 3
