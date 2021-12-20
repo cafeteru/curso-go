@@ -10,7 +10,7 @@ var z bool
 var a MyNumber
 
 func main() {
-	fmt.Println("######### Exercise 01 #########")
+	fmt.Println("######### Exercise 01-intro #########")
 	exercise01()
 	fmt.Println("######### Exercise 02 #########")
 	exercise02()
